@@ -28,13 +28,14 @@
 </head>
 
 <body onload="uncheckAll()">
+    <div class="logo-mg">
+                    <center><img src="assets/img/CandoLOGO.png "><center>
+                </div>
 
     <div class="main-container">
         <div class="calculator-container">
             <div class="round-container">
-                <div class="logo-mg">
-                    <img src="assets/img/CandoLOGO.png ">
-                </div>
+                
                 <br>
                 <span class="round-info">Ronda&nbsp;</span><span id="roundNumber" class="round-number">1</span><br>
                 <div class="energy"> <img src="assets/img/energy.png">
@@ -63,7 +64,93 @@
             </div>
             <script src="assets/js/energyCalculator.js"></script>
         </div>
+<div class="cards-and-parts-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="table-header">Parte</th>
+                        <th class="table-header">Primer Aparición</th>
+                        <th class="table-header">Segunda Aparición</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <div>
+                        <tr>
+                            <td class="axie1">Boca</td>
+                            <td class="axie1" onclick="toggleA1M1()"><i class=" fas fa-times" id="a1m1"></i></td>
+                            <td class="axie1" onclick="toggleA1M2()"><i class="fas fa-times" id="a1m2"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="axie1">Cuerno</td>
+                            <td class="axie1" onclick="toggleA1H1()"><i class=" fas fa-times" id="a1h1"></td>
+                            <td class="axie1" onclick="toggleA1H2()"><i class=" fas fa-times" id="a1h2"></td>
+                        </tr>
+                        <tr>
+                            <td class="axie1">Espalda</td>
+                            <td class="axie1" onclick="toggleA1B1()"><i class=" fas fa-times" id="a1b1"></td>
+                            <td class="axie1" onclick="toggleA1B2()"><i class=" fas fa-times" id="a1b2"></td>
+                        </tr>
+                        <tr>
+                            <td class="axie1">Cola</td>
+                            <td class="axie1" onclick="toggleA1T1()"><i class=" fas fa-times" id="a1t1"></td>
+                            <td class="axie1" onclick="toggleA1T2()"><i class=" fas fa-times" id="a1t2"></td>
+                        </tr>
+                    </div>
 
+                    <div>
+                        <tr>
+                            <td class="axie2">Boca</td>
+                            <td class="axie2" onclick="toggleA2M1()"><i class=" fas fa-times" id="a2m1"></i></td>
+                            <td class="axie2" onclick="toggleA2M2()"><i class="fas fa-times" id="a2m2"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="axie2">Cuerno</td>
+                            <td class="axie2" onclick="toggleA2H1()"><i class=" fas fa-times" id="a2h1"></td>
+                            <td class="axie2" onclick="toggleA2H2()"><i class=" fas fa-times" id="a2h2"></td>
+                        </tr>
+                        <tr>
+                            <td class="axie2">Espalda</td>
+                            <td class="axie2" onclick="toggleA2B1()"><i class=" fas fa-times" id="a2b1"></td>
+                            <td class="axie2" onclick="toggleA2B2()"><i class=" fas fa-times" id="a2b2"></td>
+                        </tr>
+                        <tr>
+                            <td class="axie2">Cola</td>
+                            <td class="axie2" onclick="toggleA2T1()"><i class=" fas fa-times" id="a2t1"></td>
+                            <td class="axie2" onclick="toggleA2T2()"><i class=" fas fa-times" id="a2t2"></td>
+                        </tr>
+                    </div>
+
+                    <div>
+                        <tr>
+                            <td class="axie3">Boca</td>
+                            <td class="axie3" onclick="toggleA3M1()"><i class=" fas fa-times" id="a3m1"></i></td>
+                            <td class="axie3" onclick="toggleA3M2()"><i class="fas fa-times" id="a3m2"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="axie3">Cuerno</td>
+                            <td class="axie3" onclick="toggleA3H1()"><i class=" fas fa-times" id="a3h1"></td>
+                            <td class="axie3" onclick="toggleA3H2()"><i class=" fas fa-times" id="a3h2"></td>
+                        </tr>
+                        <tr>
+                            <td class="axie3">Espalda</td>
+                            <td class="axie3" onclick="toggleA3B1()"><i class=" fas fa-times" id="a3b1"></td>
+                            <td class="axie3" onclick="toggleA3B2()"><i class=" fas fa-times" id="a3b2"></td>
+                        </tr>
+                        <tr>
+                            <td class="axie3">Cola</td>
+                            <td class="axie3" onclick="toggleA3T1()"><i class=" fas fa-times" id="a3t1"></td>
+                            <td class="axie3" onclick="toggleA3T2()"><i class=" fas fa-times" id="a3t2"></td>
+                        </tr>
+                    </div>
+                </tbody>
+            </table>
+
+            <div class="clear-checkboxes">
+                <button onclick="uncheckAll()">MEZCLAR CARTAS</button>
+                <script src="assets/js/table.js"></script>
+            </div>
+        </div>
+    </div>
         
 
     <footer>

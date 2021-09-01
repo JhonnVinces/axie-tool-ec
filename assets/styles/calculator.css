@@ -14,11 +14,11 @@
 }
 
 .round-info {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .round-number {
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
 }
 
@@ -30,7 +30,7 @@
 
 .energy-quantity {
   margin-top: 5px;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 /* Gain-Loss */
@@ -73,6 +73,7 @@
 
 
 .logo-mg img {
- height: 160px;
- width: 160px;
+ height: 100px;
+ width: 100px;
+ text-align: center;
 }
